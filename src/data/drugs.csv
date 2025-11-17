@@ -1,0 +1,12 @@
+name,type,manufacturer
+Abacavir,Antiretroviral,GSK
+Acetaminophen,Analgesic,Various
+Acyclovir,Antiviral,Various
+Adalimumab,Biological,AbbVie
+Adefovir,Antiviral,Gilead
+Albuterol,Bronchodilator,Various
+Alendronate,Bisphosphonate,Merck
+Allopurinol,Antigout,Various
+Alprazolam,Anxiolytic,Pfizer
+Amitriptyline,Antidepressant,Various
+// ... (truncated for brevity - in reality this would contain 150,000+ drug entries)

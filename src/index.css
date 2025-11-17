@@ -1,0 +1,46 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-900;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #1a1a1a, #2d3748);
+}
+
+.auth-input {
+  @apply w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500;
+}
+
+.btn-primary {
+  @apply bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition duration-300;
+}
+
+.btn-secondary {
+  @apply bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition duration-300;
+}
+
+.drawing-canvas {
+  @apply border-2 border-gray-600 rounded-lg touch-none w-full h-full;
+  background: #2d3748;
+  aspect-ratio: 5/3;
+  touch-action: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
